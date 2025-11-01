@@ -1,1 +1,14 @@
-{\n  "name": "emmanuelnhyira21-bot.github.io",\n  "version": "1.0.0",\n  "description": "A simple project for emmanuelnhyira21",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "repository": {\n    "type": "git",\n    "url": "git+https://github.com/emmanuelnhyira21-bot/emmanuelnhyira21-bot.github.io.git"\n  },\n  "keywords": [],\n  "author": "emmanuelnhyira21",\n  "license": "ISC"\n}
+{
+  "name": "flight-backend",   
+  "version": "1.0.0",                
+  "main": "index.js",                 
+  "type": "module",                   
+  "scripts": {
+    "start": "node index.js"          
+  },
+  "dependencies": {
+    "express": "^4.19.0",             
+    "cors": "^2.8.5",                 
+    "node-fetch": "^3.3.2",           
+    "dotenv": "^16.4.0"              
+  }
